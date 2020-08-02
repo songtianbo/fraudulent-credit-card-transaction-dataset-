@@ -3,9 +3,4 @@ Original dataset has 492 frauds out of 284,807 transactions. The dataset is high
 n: number of nodes
 b: number of batched lines
 
-in train folder, 
-b=2 			is the most balanced
-|
-|
-|
-b = 130 		is the most unbalanced
+in dispatcher_sq.py change the value of b to control the batch size
